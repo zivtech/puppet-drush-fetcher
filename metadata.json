@@ -1,6 +1,6 @@
 {
   "name": "zivtech-drush_fetcher",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Howard Tyson <howard@howardtyson.com>",
   "summary": "This module installs and configured the fetcher drupal drush extension and build system.",
   "license": "Apache 2.0",
@@ -9,8 +9,7 @@
   "issues_url": "https://github.com/tizzo/puppet-drush-fetcher/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"zivtech-drush","version_requirement":">= 0.0.0"},
-    {"name":"puppetlabs-concat","version_requirement":">= 1.0.0"}
+    {"name":"zivtech-drush","version_requirement":">= 0.0.0"}
   ]
 }
 
