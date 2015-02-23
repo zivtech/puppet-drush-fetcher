@@ -1,7 +1,3 @@
-# == Class: drush_fetcher
-#
-class drush_fetcher {
-
 class drush_fetcher (
   $drush_command_path = '/usr/share/drush/commands',
   $git_ref = '7.x-1.x',
@@ -47,8 +43,5 @@ class drush_fetcher (
       revision => $fetcher_services_git_ref,
     }
   }
-
-}
-
 
 }
