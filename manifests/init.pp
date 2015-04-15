@@ -29,7 +29,7 @@ class drush_fetcher (
         Class['php::cli'],
         Vcsrepo["${drush_command_path}/drush_fetcher"],
       ],
-      subscribe   => "${drush_command_path}/drush_fetcher",
+      subscribe   => Vcsrepo["${drush_command_path}/drush_fetcher"],
     }
 
   }
