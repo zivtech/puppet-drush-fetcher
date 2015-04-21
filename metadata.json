@@ -1,6 +1,6 @@
 {
   "name": "zivtech-drush_fetcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Howard Tyson <howard@howardtyson.com>",
   "summary": "This module installs and configured the fetcher drupal drush extension and build system.",
   "license": "Apache 2.0",
