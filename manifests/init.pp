@@ -7,7 +7,6 @@ class drush_fetcher (
 ) {
 
   require drush
-  include wget
 
   vcsrepo { "${drush_command_path}/drush_fetcher":
     require  => File["/usr/share/drush", "/usr/share/drush/commands"],
